@@ -1,0 +1,207 @@
+body {
+    font-family: "Rockwell", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #009193;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #00989b;
+}
+
+.homepage {
+    background: url("C:/Users/btspa/GitProjects/Website/PersonalWebsite/From Scratch/images/husky2.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.homepage-content {
+    display: flex;
+    align-items: center;
+}
+
+.headshot {
+    height: 475px;
+    width: 450px;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+.typing-container {
+    width: 455px;
+    height: 165px;
+    background-color: black;
+    border: 3px solid white;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    align-self: center;
+}
+
+.typing-text {
+    font-size: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    overflow-y: auto;
+    white-space: nowrap;
+    max-height: 150px;
+    border-right: 2px solid transparent;
+}
+
+.bottom-left-image {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 20px; /* Adjust the distance from the left */
+}
+
+.bottom-left-image img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.bottom-left-image img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.homepage, .about-me-container, .resume-page, .projects, .courses, .contact {
+    min-height: 100vh; /* Full viewport height */
+    padding: 60px 20px; /* Padding to avoid overlap with fixed nav */
+    box-sizing: border-box;
+}
+
+.thumbnail-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 100%;
+    margin: 20px 0;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.thumbnails img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnails a {
+    display: block;
+    width: 100px;
+}
+
+.project-description {
+    text-align: center;
+}
+
+.project-header {
+    text-align: center;
+    font-family: 'Rockwell', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffe4;
+}
+
+.about-me {
+    width: 50%;
+    overflow-y: auto;
+    float: left;
+}
+
+.about-me-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.about-me-text {
+    font-size: 20px;
+    text-align: left;
+    line-height: 2;
+    margin-left: 50px;
+}
+
+.personal-media {
+    width: 50%;
+    overflow-y: auto;
+    float: right;
+    text-align: center;
+}
+
+.surfing-pic {
+    margin-top: 25px;
+    border-radius: 50px;
+    border: 5px solid white;
+    height: 700px;
+    width: 450px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
